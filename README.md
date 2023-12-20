@@ -5,4 +5,4 @@ Improving Techniques for Training GANs
 Tasks : 
 - Understand the paper : what metrics they used for evaluate the model ?
 - Make questions about it and makes suggestions for improve the training.
-- If it is possible reorganize the code to apply into our problem.
+- If it is possible reorganize the code to apply it into our problem.
