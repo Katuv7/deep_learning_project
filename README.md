@@ -42,11 +42,19 @@ Compare directement le baseline de modeles, tableaux, des choses que résumée b
   - le modele
   - la search (plotée l'accuracy selon les parameters)
   - Capturée d'essenciel, a la soutenance pas de montrer le code.
-
-
-
+ 
 # Out next meeting will be a discussion on Saturday 23/12/2023 at 22h00.
 Tasks : 
 - Understand the paper : what metrics they used for evaluate the model ?
 - Make questions about it and makes suggestions for improve the training.
 - If it is possible reorganize the code to apply it into our problem.
+
+# Mikael
+In this week, I tried to read the article by extracting some useful information for our project and start my part of the project with the MNIST data using tensorflow in the keras library. first step is to load the packages used, then to check our environment is in the GPU header for the computing power. I downloaded the MNIST data and checked the structure of each part of the data. In the preprocessing step, I divided my data into the training and validation set. The most important thing is to see the distribution of each class, convert the output data by matrix class and finally normalization. my data is finally ready in the classification framework.
+
+## For next work:
+
+- Apply the CNN model to the labeled and unlabeled data
+- Create the generator to generate the fake image
+- Create a discriminator by combining the true labeled and unlabeled data and fake generator to the final classyfying
+- implementing the Loss function .
